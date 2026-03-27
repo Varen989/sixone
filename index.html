@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>S! Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="card">
+
+    <div class="header"></div>
+
+    <div class="profile-wrap">
+        <img src="2.png" class="profile">
+    </div>
+
+    <h1>S!</h1>
+    <div class="badges">✦ ✧ ★ ✪ ✦</div>
+    <p class="desc"> I Love you but Pls Don't Comeback</p>
+
+    <div class="social">
+        <a href="https://www.instagram.com/sixoneluv_10" target="_blank" class="box">
+            <img src="in.png">
+            <div>
+                <b>FACEBOOK</b>
+                <p>Profile</p>
+            </div>
+        </a>
+
+        <a href="https://discord.gg/pndm2y8dUT" target="_blank" class="box">
+            <img src="discord.png">
+            <div>
+                <b>DISCORD</b>
+                <p>Server</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="info">
+        <img src="5.png">
+
+        <div class="text">
+            <p>🕒 19:57 • 📅 29/03/2568</p>
+            <p>🌡️ 24°C • 💨 13 km/h</p>
+        </div>
+
+        <div class="btns">
+            <a href="https://discord.gg/pndm2y8dUT" target="_blank" class="pink">DISCORD</a>
+            <a href="https://www.tiktok.com/@bakakimiru" target="_blank" class="pink">TIKTOK</a>
+        </div>
+    </div>
+
+    <div class="music">
+        <p id="song">D.O. LAND (feat. 2K, 1ST).</p>
+
+        <div class="player">
+            <span id="current">0:00</span>
+            <input type="range" id="progress" value="0">
+            <span id="duration">0:00</span>
+        </div>
+
+        <button onclick="toggleMusic()" id="btn">▶</button>
+
+        <audio id="audio">
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

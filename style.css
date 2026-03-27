@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.bg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("1.gif") center/cover;
+    filter: blur(6px) brightness(0.6);
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 360px;
+    padding: 15px;
+    border-radius: 20px;
+
+    background: rgba(0,0,0,0.85);
+    color: white;
+
+    box-shadow: 0 0 40px hotpink;
+}
+
+.header {
+    height: 90px;
+    background: url("3.png") center/cover;
+    border-radius: 15px;
+}
+
+.profile-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+
+.profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid hotpink;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+}
+
+.badges {
+    text-align: center;
+    color: hotpink;
+}
+
+.desc {
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 8px;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    background: #111;
+    border-radius: 12px;
+    padding: 10px;
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    text-decoration: none;
+    color: white;
+
+    transition: 0.25s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, hotpink, deeppink);
+    box-shadow: 0 0 15px hotpink;
+}
+
+.box img {
+    width: 28px;
+}
+
+.box p {
+    margin: 0;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 10px;
+    padding: 10px;
+
+    background: #111;
+    border-radius: 12px;
+
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.info img {
+    width: 60px;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.btns {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pink {
+    background: hotpink;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.pink:hover {
+    background: deeppink;
+}
+
+.music {
+    margin-top: 10px;
+    padding: 10px;
+    background: #111;
+    border-radius: 12px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#progress {
+    flex: 1;
+}
+
+button {
+    margin-top: 5px;
+    background: hotpink;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
